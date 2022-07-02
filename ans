@@ -1,0 +1,11 @@
+ n=int(input()) <br>
+ a=list(map(int,input().split())) <br>
+ p1=0 <br>
+ for i in range(n):<br>
+    if a[i]%2==0:<br>
+        p1=p1+1<br>
+ if p1>(n-p1):<br>
+    print('ready for battle')<br>
+ else:<br>
+    print('not ready')
+    
